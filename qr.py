@@ -12,7 +12,7 @@
 
 # # Yahan apni copy ki hui API Key daal dena
 # API_KEY = "AIzaSyAoEdcIuP0dtBOM5BvO_NYS-WK3mECxt1g"
-# genai.configure(api_key=API_KEY)
+# genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 
 # # Gemini AI Model setup
 # model = genai.GenerativeModel('gemini-1.5-flash')
